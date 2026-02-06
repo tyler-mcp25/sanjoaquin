@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+}
+
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    padding-left: 30px;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+main h1 {
+    font-size: 150%;
+}
+
+main h2 {
+    font-size: 130%;
+    color: #800000;
+}
+
+main h3 {
+    font-size: 105%;
+}
+
+a:focus {
+    font-style: italic;
+}
+
+a:hover { 
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.shadow {
+    text-shadow: 1px 2px 1px #800000;
+}
+
+/* My title image was getting squished somehow, so I just added this rule to fix it. */
+header img {
+    height: auto;
+    width: 105px;
+}
