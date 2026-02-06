@@ -33,11 +33,7 @@ main h3 {
     font-size: 105%;
 }
 
-a:focus {
-    font-style: italic;
-}
-
-a:hover { 
+a:focus, a:hover {
     font-style: italic;
 }
 
