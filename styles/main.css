@@ -11,7 +11,7 @@ html {
 body {
     font-family: sans-serif;
     font-size: 100%;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -40,6 +40,16 @@ header h3 {
 
 main {
     padding: 0 1em 1em 1em;
+    display: flex;
+}
+
+section {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+    padding-right: 15px;
 }
 
 main img {
@@ -51,7 +61,7 @@ main p {
 }
 
 main blockquote {
-    padding: 0 2em;
+    padding: .3em 2em;
     font-style: italic;
 }
 
@@ -74,6 +84,10 @@ main h2 {
     font-size: 130%;
     color: #800000;
     padding: .5em 0 .25em 0;
+}
+
+#ticketprice {
+    border-top: 3px solid #931420;
 }
 
 main h3 {
